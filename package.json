@@ -1,0 +1,23 @@
+{
+  "name": "ali-driver",
+  "version": "1.0.0",
+  "description": "Ali driver server",
+  "scripts": {
+    "dev": "tsc && node dist/app",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "main": "index.js",
+  "author": "DISHUYL",
+  "license": "MIT",
+  "keywords": ["mmodule","ali","drive"],
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "axios": "^0.26.0",
+    "eslint": "6.7.2",
+    "typescript": "^4.8.4"
+  }
+}
