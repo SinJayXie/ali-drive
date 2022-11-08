@@ -1,4 +1,3 @@
-
 import Utils from './Utils';
 
 class AliCloudDriveService {

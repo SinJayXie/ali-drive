@@ -91,3 +91,5 @@ interface AliFileItem {
     revision_id: string,
     revision_version: number
 }
+
+export { AliFileItem, AliUserInfo, RefreshTokenResponse };
