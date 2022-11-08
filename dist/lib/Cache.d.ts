@@ -1,3 +1,4 @@
+import { AliFileItem } from '../../index';
 declare class AliFileListCache {
     private cacheMap;
     private cacheSaveExpire;

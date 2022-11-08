@@ -1,4 +1,5 @@
 import Utils from './Utils';
+import { AliFileItem, AliUserInfo } from '../../index';
 
 class AliCloudDriveService {
     public readonly utils: Utils;

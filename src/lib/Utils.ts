@@ -4,6 +4,7 @@ import * as fs from 'fs';
 import { AxiosRequestConfig } from 'axios';
 import * as path from 'path';
 import AliFileListCache from './Cache';
+import { AliFileItem, RefreshTokenResponse } from '../../index';
 const accessTokenPath = path.join(process.env.PWD || '', 'accessToken.json');
 
 class Utils {

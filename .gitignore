@@ -4,3 +4,7 @@ package-lock.json
 yarn.lock
 
 accessToken.json
+
+.idea
+
+.vscode

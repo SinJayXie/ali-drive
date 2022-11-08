@@ -1,3 +1,5 @@
+import { AliFileItem } from '../../index';
+
 class AliFileListCache {
     private cacheMap: Map<string, AliFileItem[]>;
     private cacheSaveExpire: Map<any, number>;

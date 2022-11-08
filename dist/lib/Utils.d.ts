@@ -1,4 +1,5 @@
 import { AxiosRequestConfig } from 'axios';
+import { AliFileItem, RefreshTokenResponse } from '../../index';
 declare class Utils {
     refreshTokenResponse: RefreshTokenResponse;
     private refreshToken;

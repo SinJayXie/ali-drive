@@ -1,4 +1,5 @@
 import Utils from './Utils';
+import { AliFileItem, AliUserInfo } from '../../index';
 declare class AliCloudDriveService {
     readonly utils: Utils;
     constructor(refreshToken: string);
